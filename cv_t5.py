@@ -28,10 +28,10 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-# Pelo visto os limites do ".inRange()" não são BGR são HSV
+# Pelo visto os limites do ".inRange()" nao sao BGR sao HSV
 # HSV:
 #   Hue) Cor, de 0 à 179 (devia ser 360?)
-#   Saturation) Saturação, de 0 à 255
+#   Saturation) Saturacao, de 0 à 255
 #   Value) Brilho, de 0 à 255
 
-# Sinceramente, vale mais a pena não usar esse sistema, ou pesquisar na internet códigos parecidos
+# Sinceramente, vale mais a pena nao usar esse sistema, ou pesquisar na internet códigos parecidos
